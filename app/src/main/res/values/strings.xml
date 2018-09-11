@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ForcadasJudeLab3</string>
+    <string name="activity_title">Styles &amp; Material Design</string>
+    <string name="description">Dangwa Flower Market</string>
+    <string name="location">Location: Dimasalang Road and Dos Castillas, Manila, Luzon Philippines</string>
+    <string name="distance">Distance from UST: 1.2km</string>
+    <string name="button_back">Back</string>
+    <string name="button_next">Next</string>
+</resources>

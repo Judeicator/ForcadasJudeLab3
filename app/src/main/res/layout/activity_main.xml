@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ActivityTitle"
+        style="@style/ActivityTitle"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- FOR SOME REASON THE CONSTRAINT ATTRIBUTES -->
+    <!-- KEEP RETURNING TO THE LAYOUT XML FILE     -->
+
+    <ImageView
+        android:id="@+id/Image"
+        android:contentDescription="@string/description"
+        style="@style/Image"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ActivityTitle"
+        app:srcCompat="@drawable/dangwa_flower_market" />
+
+    <!-- FOR SOME REASON THE CONSTRAINT ATTRIBUTES -->
+    <!-- KEEP RETURNING TO THE LAYOUT XML FILE     -->
+
+    <TextView
+        android:id="@+id/Title"
+        style="@style/Title"
+        android:text="@string/description"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Image" />
+
+    <!-- FOR SOME REASON THE CONSTRAINT ATTRIBUTES -->
+    <!-- KEEP RETURNING TO THE LAYOUT XML FILE     -->
+
+    <TextView
+        android:id="@+id/Location"
+        style="@style/Location"
+        android:text="@string/location"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Title" />
+
+    <!-- FOR SOME REASON THE CONSTRAINT ATTRIBUTES -->
+    <!-- KEEP RETURNING TO THE LAYOUT XML FILE     -->
+
+    <TextView
+        android:id="@+id/Distance"
+        android:text="@string/distance"
+        style="@style/Distance"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Location" />
+
+    <!-- FOR SOME REASON THE CONSTRAINT ATTRIBUTES -->
+    <!-- KEEP RETURNING TO THE LAYOUT XML FILE     -->
+
+    <Button
+        android:id="@+id/BackButton"
+        android:text="@string/button_back"
+        style="@style/BackButton"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- FOR SOME REASON THE CONSTRAINT ATTRIBUTES -->
+    <!-- KEEP RETURNING TO THE LAYOUT XML FILE     -->
+
+    <Button
+        android:id="@+id/NextButton"
+        android:text="@string/button_next"
+        style="@style/NextButton"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/BackButton" />
+
+    <!-- FOR SOME REASON THE CONSTRAINT ATTRIBUTES -->
+    <!-- KEEP RETURNING TO THE LAYOUT XML FILE     -->
+
+</android.support.constraint.ConstraintLayout>
